@@ -16,3 +16,4 @@ class User(val email: String)
 fun sendEmail(user: User, message: String) {
     requireNotNull(user.email)
 }
+
